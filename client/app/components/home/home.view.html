@@ -1,0 +1,80 @@
+<ng-include src="'/app/shared/navbar.view.html'"></ng-include>
+        
+        <section id="main-container">
+            
+            <section id="profile-info">
+                <div class="container">
+                    <div class="row">
+                        <div id="profile-photo" class="col-xs-4">
+                            <img src="https://unsplash.it/200/200/?random">
+                        </div>
+                        <div id="profile-content"class="col-xs-8">
+                            <h3>{{parliamentary_constituency}}</h3>
+                            <p>
+                                <button class="btn btn-default" ng-click="increment()">Click me to add one</button>
+                                {{example*2}}
+                                <span ng-show="example % 4 === 0">{{otherexample}}</span>
+<!--                                DJ KHALED For bookings: bookdjkhaled@gmail.com Now Open Go Shop! www.wethebeststore.com-->
+                            </p>
+                            <div id="profile-stats" class="container">
+                                <div class="row">
+                                    <div class="col-sm-2">
+                                        17,367 posts
+                                    </div>
+                                    <div class="col-sm-2">
+                                        2.9 Followers
+                                    </div>
+                                    <div class="col-sm-2">
+                                        1 Following
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="photo-grid">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6">
+                            <img src="https://unsplash.it/400/400/?random">
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <img src="https://unsplash.it/401/401/?random">
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <img src="https://unsplash.it/402/402/?random">
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <img src="https://unsplash.it/403/403/?random">
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <img src="https://unsplash.it/404/404/?random">
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <img src="https://unsplash.it/405/405/?random">
+                        </div>
+                    </div>
+                </div>
+            </section>        
+    
+            <footer>
+                <div class="container">
+                    <div id="footer-left">
+                        <a href="about/about.html">About</a>
+                    </div>
+                    <div id="footer-right">
+                        &#169; Philstagram 2016
+                    </div>
+                </div>
+            </footer>
+        </section>
+        
+        
+        <footer></footer>
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+        
+<script src="index.js"></script>

@@ -1,0 +1,19 @@
+<ng-include src="'/app/shared/navbar.view.html'"></ng-include>
+
+<div class="container">
+    <form class="form-inline">
+        <div class="form-group">
+            <h3>Enter your postcode!</h3>
+            <input type="text" class="form-control" placeholder="Your postcode" ng-model="postcode">
+        </div>
+        <br><br>
+        <button type="submit" class="btn btn-default" ng-click="checkPostcode()">Check your postcode</button>
+    </form>
+    
+    <div ng-if="postcodeData">
+    
+    
+    </div>
+    
+    <h3 ng-if="parliamentary_constituency">{{parliamentary_constituency}}</h3>
+</div>
