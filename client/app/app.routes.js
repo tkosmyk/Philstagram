@@ -16,7 +16,7 @@ philstagram.config(function($stateProvider, $urlRouterProvider, $locationProvide
     })
     .state('postcode',{
         url:"/postcode",
-        temlateUrl: "/app/components/postcode/postcode.view.html",
+        templateUrl: "/app/components/postcode/postcode.view.html",
         controller: "HomeCtrl"
     });
 });
